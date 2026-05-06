@@ -1,5 +1,5 @@
 class Solution:
-    # O(n^2) solution
+    # O(n) solution
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         n = len(nums)
         result = [1] * len(nums)
