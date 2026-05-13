@@ -15,4 +15,4 @@ class Solution:
 
         backtrack(0, [])
 
-        return list(all_subsets)
+        return all_subsets
