@@ -1,4 +1,5 @@
 class Solution:
+    # bottom-up dp solution
     def climbStairs(self, n: int) -> int:
         if n <= 2:
             return n
