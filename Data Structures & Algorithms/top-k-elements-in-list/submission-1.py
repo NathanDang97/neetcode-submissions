@@ -1,4 +1,5 @@
 class Solution:
+    # bucket sort solution, O(n) time
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         frequency = {}
         for num in nums:
