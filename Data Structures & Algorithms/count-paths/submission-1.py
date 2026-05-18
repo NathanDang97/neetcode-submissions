@@ -1,5 +1,5 @@
 class Solution:
-    # top down DP solution, time O(n + m)
+    # top down DP solution, time O(m * n)
     def uniquePaths(self, m: int, n: int) -> int:
         cache = {}
         def dfs(i, j):
