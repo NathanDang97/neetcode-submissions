@@ -7,7 +7,7 @@ class Interval(object):
 """
 
 class Solution:
-    # min-heap solution, time O(nlogn)
+    # min-heap solution, time O(nlogn), space O(n)
     def minMeetingRooms(self, intervals: List[Interval]) -> int:
         intervals.sort(key=lambda x: x.start)
         min_heap = []
