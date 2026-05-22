@@ -17,8 +17,8 @@ class Solution:
 
             # add the current digits
             sum_val = val1 + val2 + carry
-            carry = sum_val // 10 # remainder
-            sum_val = sum_val % 10 # the whole part
+            carry = sum_val // 10 # the whole part
+            sum_val = sum_val % 10 # remainder
             curr_sum.next = ListNode(sum_val)
 
             # move the pointers
