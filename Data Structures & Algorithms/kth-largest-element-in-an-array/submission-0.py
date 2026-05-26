@@ -1,4 +1,5 @@
 class Solution:
+    # max-heap solution, O(n + klogn) time, O(n) space
     def findKthLargest(self, nums: List[int], k: int) -> int:
         max_heap = nums.copy()
         heapq.heapify_max(max_heap)
