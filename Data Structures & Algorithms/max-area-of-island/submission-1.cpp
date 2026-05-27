@@ -1,12 +1,12 @@
 class Solution {
-private:
-    int directions[4][2] = {
-        {-1, 0}, {1, 0}, {0, -1}, {0, 1}
-    };
 public:
+    // bfs solution, O(rows * cols) time and space
     int bfs(vector<vector<int>>& grid, int r, int c) {
         int rows = grid.size();
         int cols = grid[0].size();
+        int directions[4][2] = {
+            {-1, 0}, {1, 0}, {0, -1}, {0, 1}
+        };
         queue<pair<int, int>> q;
         q.push({r, c});
         int size = 1;
