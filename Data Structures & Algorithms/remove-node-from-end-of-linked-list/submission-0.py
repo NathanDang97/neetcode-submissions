@@ -5,6 +5,7 @@
 #         self.next = next
 
 class Solution:
+    # two-pass solution, O(n) time, O(1) space
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         # compute the length of the list
         list_length = 0
