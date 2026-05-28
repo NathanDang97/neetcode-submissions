@@ -97,6 +97,10 @@ public:
     }
     
     void printList() {
+        if (!head) { 
+            cout << "Empty List!" << endl; 
+            return; 
+        }
         Node* curr = head;
         while (curr->next) {
             cout << curr->value << " ---> ";
