@@ -1,7 +1,7 @@
 from collections import defaultdict
 import heapq
 class Solution:
-    # solution using Dijkstra's, time O(ElogV), space O(E + V)
+    # solution using Dijkstra's, time O(kE * log(kV)), space O(kV)
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         graph = defaultdict(list)
         for u, v, w in flights:
