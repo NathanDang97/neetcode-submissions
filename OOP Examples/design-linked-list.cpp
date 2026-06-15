@@ -83,7 +83,7 @@ public:
         }
     }
     
-    // delete a node from a given nth-index from the end of the list (0-indexed)
+    // delete a node from a given nth-index from the end of the list (1-indexed)
     void deleteNthNodeFromEnd(int n) {
         // compute the length of the list
         int length = 0;
