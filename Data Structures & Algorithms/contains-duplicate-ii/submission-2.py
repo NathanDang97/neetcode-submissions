@@ -1,5 +1,5 @@
 class Solution:
-    # two-pointer solution, O(n) time, O(1) space
+    # two-pointer solution, O(n) time, O(min(n, k)) space
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         l, r = 0, 0
         window = set()
