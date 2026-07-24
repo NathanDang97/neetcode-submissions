@@ -19,7 +19,7 @@ class Solution:
                     stack.pop()
 
             # add an asteroid to the stack if the stack is empty
-            # or if it's positive or if the stack of the top is negative
+            # or if it's positive or if the top of the stack is negative
             if a != 0:
                 stack.append(a)
 
